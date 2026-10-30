@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gymship</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+
+</head>
+<body>
+
+  <nav>
+    <h1>Gym<span>ship</span></h1>
+    <div class="link container">
+      <a class="link create">Create.</a>
+      <a class="link read">Read.</a>
+      <a class="link update">Update.</a>
+      <a class="link delete">Delete.</a>
+    </div>
+  </nav>
+
+  <div class="input container">
+    <h1>Add Membership Plan</h1>
+    <div class="input section">
+      <label>Duration</label>
+      <input id="duration" type="number" placeholder="0">
+    </div>
+    <div class="input section">
+      <label>Rate</label>
+      <input id="rate" type="number" placeholder="0">
+    </div>
+    <div class="input buttons">
+      <button>Save</button>
+    </div>
+  </div>
+
+  <div class="input container">
+    <h1>Register Member</h1>
+    <div class="input section">
+      <label>Full Name</label>
+      <input id="duration" type="text" placeholder="Enter Member Name Here">
+    </div>
+    <div class="input section">
+      <label>Membership Plan</label>
+      <input id="rate" type="text" placeholder="Enter Member Plan Here">
+    </div>
+    <div class="input buttons">
+      <button>Save</button>
+    </div>
+  </div>
+
+  <div class="status container">
+    <div>Gym Status</div>
+    <div class="status total">Total Members: </div>
+    <div class="status active">Active Members: </div>
+    <div class="status inactive">Inactive Members: </div>
+  </div>
+
+  <div class="table container">
+    <h1>Gym Members</h1>
+    <table>
+      <thead>
+        <th>Member</th>
+        <th>Plan</th>
+        <th>Attendance</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <div>© 2026 Gymship</div>
+    <div>Built by BSCS - 3A Group</div>
+  </footer>
+</body>
+</html>

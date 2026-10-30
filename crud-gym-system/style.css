@@ -1,0 +1,137 @@
+body{
+  display:flex;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 100px;
+  background-color: #f7f4f3;
+}
+
+nav{
+  height: 95px;
+  width: 100%;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  display:flex;
+}
+
+nav h1{
+  color: #5b2333;
+  font-size: 29px;
+  font-weight: 700;
+  margin: 0 auto 0 0;
+}
+
+nav h1, .link.container{
+  margin-top: 20px;
+}
+
+h1 span{
+  color: #f90706;
+}
+
+.link{
+  font-size: 29px;
+}
+
+.read{
+  color: #5b2333;
+}
+.delete{
+  color: #f90706;
+}
+
+.input.container{
+  width: 560px;
+  height: 450px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 12px;
+  padding: 27px 52px 27px 52px;
+}
+
+.input.container h1{
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.input.section{
+  display: flex;
+  flex-direction: column;
+}
+
+.input.section input{
+  border-radius: 15px;
+  width: 450px;
+  height: 56px;
+  padding: 10px 10px 10px 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.input.section label{
+  font-size: 27px;
+  padding: 10px
+}
+
+.input.buttons button{
+  background-color: #5b2333;
+  border-radius: 15px;
+  width: 84px;
+  height: 49px;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.status.container{
+  width: 300px;
+  height: 180px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #5b2333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 21px;
+}
+
+.table.container{
+  width: 900px;
+  height: 290px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px
+}
+
+.table.container table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table.container th{
+  border-bottom: .5px solid #0000008c;
+  padding-bottom: 10px;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0 10px 0;
+  box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.25);
+}
